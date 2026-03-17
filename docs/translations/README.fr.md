@@ -79,7 +79,7 @@ Plateforme de renseignement financier de pointe avec analyses de niveau CFA, aut
 ### Conditions préalables
 
 -   **CMake**3.20+
--   **vcpkg** (for dependency management)
+-   **vcpkg**(pour la gestion des dépendances)
 -   **Compilateur C++20**(MSVC 2022, GCC 12+ ou Clang 15+)
 -   **Python**3.11+ (pour les scripts d'analyse)
 

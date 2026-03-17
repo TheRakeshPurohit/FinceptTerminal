@@ -26,20 +26,20 @@ Hochmoderne Financial-Intelligence-Plattform mit Analysen auf CFA-Ebene, KI-Auto
 
 ## Technologie-Stack
 
-| Schicht                | Technologien                          |
-| ---------------------- | ------------------------------------- |
-| **Sprache**            | C++20 (MSVC / GCC / Clang)            |
-| **Benutzeroberfläche** | Lieber ImGui (Docking-Zweig) + ImPlot |
-| **Layout**             | Yoga (Flexbox-Engine)                 |
-| **Rendern**            | GLFW 3 + OpenGL 3.3+                  |
-| **Vernetzung**         | libcurl + OpenSSL                     |
-| **Datenbank**          | SQLite 3                              |
-| **Serialisierung**     | nlohmann/json                         |
-| **Protokollierung**    | spdlog                                |
-| **Audio**              | Miniaudio                             |
-| **Video**              | libmpv (optional)                     |
-| **Analytik**           | Embedded Python 3.11+ (100+ scripts)  |
-| **Bauen**              | CMake 3.20+ / vcpkg                   |
+| Schicht                | Technologien                                  |
+| ---------------------- | --------------------------------------------- |
+| **Sprache**            | C++20 (MSVC / GCC / Clang)                    |
+| **Benutzeroberfläche** | Lieber ImGui (Docking-Zweig) + ImPlot         |
+| **Layout**             | Yoga (Flexbox-Engine)                         |
+| **Rendern**            | GLFW 3 + OpenGL 3.3+                          |
+| **Vernetzung**         | libcurl + OpenSSL                             |
+| **Datenbank**          | SQLite 3                                      |
+| **Serialisierung**     | nlohmann/json                                 |
+| **Protokollierung**    | spdlog                                        |
+| **Audio**              | Miniaudio                                     |
+| **Video**              | libmpv (optional)                             |
+| **Analytik**           | Eingebettetes Python 3.11+ (über 100 Skripte) |
+| **Bauen**              | CMake 3.20+ / vcpkg                           |
 
 * * *
 
@@ -66,7 +66,7 @@ Hochmoderne Financial-Intelligence-Plattform mit Analysen auf CFA-Ebene, KI-Auto
 | **Handel**       | Krypto-Handel, Aktienhandel, Algo-Handel, Backtesting, Handelsvisualisierung                                                                                                               |
 | **Forschung**    | Aktienanalyse, Screener, Portfolio, Oberflächenanalyse, M&A-Analyse, Derivate, Altinvestitionen                                                                                            |
 | **QuantLib**     | Kern, Analyse, Kurven, Wirtschaft, Instrumente, ML, Modelle, Numerisch, Physik, Portfolio, Preisgestaltung, Regulierung, Risiko, Terminplanung, Solver, Statistik, Stochastik, Volatilität |
-| **AI/ML**        | AI Quant Lab, Agent Studio, AI Chat, Alpha Arena                                                                                                                                           |
+| **KI/ML**        | AI Quant Lab, Agent Studio, AI Chat, Alpha Arena                                                                                                                                           |
 | **Wirtschaft**   | Wirtschaft, DBnomics, AkShare, Asiatische Märkte                                                                                                                                           |
 | **Geopolitik**   | Geopolitik, Regierungsdaten, Beziehungskarte, Maritim, Polymarket                                                                                                                          |
 | **Werkzeuge**    | Code-Editor, Knoten-Editor, Excel, Report Builder, Notizen, Datenquellen, Datenzuordnung, MCP-Server                                                                                       |
@@ -80,7 +80,7 @@ Hochmoderne Financial-Intelligence-Plattform mit Analysen auf CFA-Ebene, KI-Auto
 
 -   **CMake**3.20+
 -   **vcpkg**(für das Abhängigkeitsmanagement)
--   **C++20 compiler**(MSVC 2022, GCC 12+ oder Clang 15+)
+-   **C++20-Compiler**(MSVC 2022, GCC 12+ oder Clang 15+)
 -   **Python**3.11+ (für Analyseskripte)
 
 ### Bauen

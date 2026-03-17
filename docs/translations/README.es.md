@@ -20,7 +20,7 @@ Plataforma de inteligencia financiera de última generación con análisis de ni
 
 ## Acerca de
 
-**Terminal fincept vch**es una aplicación de escritorio nativa pura de C++20: una reescritura completa de la pila anterior de Tauri/React/Rust. se utiliza**Estimado ImGui**para interfaz de usuario acelerada por GPU,**GLFW+OpenGL**para renderizado, incrustado**Pitón**para análisis y ofrece rendimiento de clase terminal Bloomberg en un único binario nativo.
+**Terminal fincept vch**es una aplicación de escritorio nativa pura de C++20: una reescritura completa de la pila anterior de Tauri/React/Rust. se utiliza**Estimado ImGui**para interfaz de usuario acelerada por GPU,**GLFW+OpenGL**para renderizado, incrustado**Pitón** for analytics, and delivers Bloomberg-terminal-class performance in a single native binary.
 
 * * *
 
